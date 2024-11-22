@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mexedor di Butão</title>
+
+</head>
+<body>
+    <section class="mudarCss">
+        <form id="controle">
+            <label for="text">texto</label>
+            <input type="text" id="texto" name="texto">
+            
+            <label for="color">color</label>
+            <input type="color" id="color" name="color">
+
+            <label for="color">background-color</label>
+            <input type="color" id="backgroundColor" name="backgroundColor">
+
+            <label for="range">height</label>
+            <input type="range" id="height" name="height" min="0" max="500">
+
+            <label for="range">width</label>
+            <input type="range" id="width" name="width" min="0" max="200">
+
+            <label for="text">border</label>
+            <input type="text" id="border" name="border">
+
+            <label for="range">border-radius</label>
+            <input type="range" id="borderRadius" name="borderRadius" min="0" max="100">
+
+            <label for="fontFamily"></label>
+            <select name="fontFamily" id="fontFamily">
+                <option value="Arial">Arial</option>
+                <option value="Georgia">Gerogia</option>
+                <option value="Monospace">Monospace</option>
+            </select>
+            
+            <label for="number">Font-Size</label>
+            <input type="number" id="fontSize" name="fontSize">
+
+        </form>
+        <section class="resultado">
+            <button class="btn">botão</button>
+        </section>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
